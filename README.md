@@ -1,6 +1,6 @@
-Breast Cancer Wisconsin Diagnosis using KNN and Cross Validation
+Breast Cancer Detection using KNN and Cross Validation
 Project Overview-
-This project focuses on diagnosing breast cancer using the K-Nearest Neighbors (KNN) algorithm, integrated with cross-validation techniques for robust model evaluation. The dataset used is the well-known Breast Cancer Wisconsin Dataset, which consists of features related to tumor characteristics, helping to classify tumors as either benign or malignant.
+This project focuses on diagnosing breast cancer using the K-Nearest Neighbors (KNN) algorithm, integrated with cross-validation techniques for robust model evaluation.
 
 Key Features -
 K-Nearest Neighbors (KNN): A simple, yet powerful classification algorithm used to identify whether a tumor is malignant or benign based on its proximity to other data points.
@@ -9,8 +9,6 @@ IBM Z Integration: This solution leverages IBM Z's high-performance computing fo
 Project Workflow
 
 Data Preprocessing:
-The dataset is loaded and cleaned.
-Missing values, if any, are handled.
 Features are standardized to ensure that KNN distances are calculated accurately.
 
 KNN Implementation:
@@ -48,7 +46,6 @@ This project can be scaled using IBM Z for faster processing and secure manageme
 Contributing-
 We welcome contributions! Please follow the standard guidelines for making a pull request.
 Acknowledgments-
-Dataset: Breast Cancer Wisconsin Dataset
 IBM Z: For supporting high-performance computation for AI and machine learning integration.
 
 
